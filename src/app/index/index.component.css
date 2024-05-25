@@ -1,0 +1,69 @@
+/* index.component.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  width: 100%; /* Ajout : permet au conteneur de prendre toute la largeur */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333030;
+  padding: 10px 20px;
+  width: 100%; /* Ajout : permet à l'en-tête de prendre toute la largeur */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-part1 {
+  color: #e51c4c;
+}
+
+.logo-part2 {
+  color: #37b4ec;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.main {
+  background: url('C:/Users/Lobna/Pictures/earth.jpg') no-repeat center center/cover; /* Modification : lien relatif à l'image */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  width: 100%; /* Ajout : permet au contenu de prendre toute la largeur */
+}
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #37b4ec;
+}
+
+.verify-button {
+  background-color: #e51c4c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.verify-button:hover {
+  background-color: #c51942;
+}

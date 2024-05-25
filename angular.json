@@ -35,9 +35,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/aos.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/darkmode.css",
+              "src/assets/css/loader.css",
+              "src/assets/css/main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js",
+              "node_modules/web3/dist/web3.min.js",
+              "src/assets/js/aos.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/App.js",
+              "src/assets/js/Encryption.js",
+              "src/assets/js/purecounter.min.js",
+              "src/assets/js/qrcode.min.js",
+              "src/assets/js/script.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -101,5 +116,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5bc39830-ae5b-4536-a5e4-9d10025563a4"
   }
 }

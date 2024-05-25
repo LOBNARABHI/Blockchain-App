@@ -1,0 +1,47 @@
+<!-- index.component.html -->
+
+  <!--NavBar Start-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" routerLink="">
+        <i class="fa-solid fa-dragon home_text"></i>
+        <span class="home_text">Dock</span>Chain
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " routerLink="/upload">Upload </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/verify">Verify </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " routerLink="/delete">Delete </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/admin">Admin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/team">Team</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+<main class="main">
+  <div class="content">
+    <h1>Build <span class="highlight">trust</span> into your Organization</h1>
+    <p>The OrioChain platform is a leading Document Verification platform designed to bring efficiency and security to your operations.</p>
+    <button class="verify-button" routerLink="/verify">Go Verify</button>
+  </div>
+</main>
+
